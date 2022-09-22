@@ -20,7 +20,7 @@ public class HelloWorld extends Application {
                 System.out.println("Hello World!");
             }
         });
-        
+        // panel
         StackPane root = new StackPane();
         root.getChildren().add(btn);      
         Scene scene = new Scene(root, 300, 250);      
